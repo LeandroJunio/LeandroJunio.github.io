@@ -1,0 +1,42 @@
+body {
+     background-color: blueviolet;
+     color: cyan;
+}
+
+/*Seletor h1 e suas propriedades*/
+h1 {
+    color: greenyellow;
+    font-family: 'Dancing Script', cursive;
+    font-size: 400%;
+    text-align: center;
+ }
+  
+ /*Seletor h2, propriedades e valores*/
+ h2 {
+    color: yellow;
+    font-family: 'Grandstander', cursive;
+    font-size: 250%;
+ }
+
+ img {
+     width: 200px;
+     height: 200px;
+     box-shadow: 5px 5px 10px black;
+     border-radius: 20px;
+ }
+
+ /*Identificador usa-se a HASH #*/
+img#imgPrincipal {
+    /*Centralização da Imagem*/
+    display: block;
+    margin: 50px auto;
+    width: 50%;
+    height: auto;
+ }
+  
+ /*Classes usam o PONTO .*/
+ img.logo {
+    margin-left: 15%;
+    /*Arredondamento da imagem*/
+    border-radius: 50%;
+ }
